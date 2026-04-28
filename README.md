@@ -11,7 +11,7 @@
 [![POC](https://img.shields.io/badge/POC-9%20completed-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
 [![Lines migrated](https://img.shields.io/badge/Source%20lines-~35%2C500-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
 [![Patterns covered](https://img.shields.io/badge/Patterns-48%20covered-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
-[![Live demos](https://img.shields.io/badge/Live%20demos-8-29B6E8?style=flat-square&labelColor=1C2847)](#live-demos)
+[![Live demos](https://img.shields.io/badge/Live%20demos-7-29B6E8?style=flat-square&labelColor=1C2847)](#live-demos)
 [![Vivantro](https://img.shields.io/badge/by-Vivantro%20%C2%B7%20Access%20International-1C2847?style=flat-square)](https://github.com/Vivantro)
 
 </div>
@@ -88,14 +88,13 @@ Ten principles guide every engagement. They exist because each of them has a sca
 
 ## Proof points
 
-ATLAS has been validated on **9 public POCs** (~35,500 lines of COBOL, Delphi and BizTalk source) and **2 production-grade benchmarks** (anonymized, ~25,500 additional lines).
+ATLAS has been validated on **8 public POCs** (~27,500 lines of COBOL, Delphi and BizTalk source) and **2 production-grade benchmarks** (anonymized, ~25,500 additional lines).
 
 ### POCs by stack
 
 | # | Source | Domain | Source lines | Target | Ratio |
 |---|---|---|---:|---|---:|
 | 1 | COBOL (CLI) | Reporting | 209 | Python / Java | — |
-| 2 | COBOL | Portfolio management | 7,972 | TypeScript (Cloudflare) | 10:1 |
 | 3 | COBOL + CICS + VSAM | Credit card management | 7,650 | TypeScript (Cloudflare) | 7.4:1 |
 | 4 | COBOL + CICS + DB2 | Core banking | 7,900 | TypeScript (Cloudflare) | 7.2:1 |
 | 5 | COBOL + CICS + DB2 | Insurance policy | 3,211 | TypeScript (Cloudflare) | 3.8:1 |
@@ -129,7 +128,6 @@ Every POC ships as a working application. You can interact with the migrated sys
 | Sovereign tax (DGFiP) | https://dgfip.vivantro.org |
 | Invoicing (Raptor — Delphi) | https://raptor.vivantro.org |
 | Insurance integration (BizTalk) | https://biztalk.vivantro.org |
-| Portfolio management | https://portfolio.vivantro.org |
 
 > Source code of the original systems comes from public references (AWS CardDemo, IBM CBSA & GenApp, DGFiP CeCILL, Microsoft `aimbiztalk` MIT samples, open-source Delphi). Migrated code is proprietary.
 
