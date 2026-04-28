@@ -8,8 +8,8 @@
 
 *Cellule legacy dediee — methodologie vivante et auto-apprenante, outillee par skills reutilisables.*
 
-[![POC](https://img.shields.io/badge/POC-9%20completed-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
-[![Lines migrated](https://img.shields.io/badge/Source%20lines-~35%2C500-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
+[![POC](https://img.shields.io/badge/POC-8%20completed-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
+[![Lines migrated](https://img.shields.io/badge/Source%20lines-~27%2C500-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
 [![Patterns covered](https://img.shields.io/badge/Patterns-48%20covered-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
 [![Live demos](https://img.shields.io/badge/Live%20demos-7-29B6E8?style=flat-square&labelColor=1C2847)](#live-demos)
 [![Vivantro](https://img.shields.io/badge/by-Vivantro%20%C2%B7%20Access%20International-1C2847?style=flat-square)](https://github.com/Vivantro)
@@ -159,8 +159,8 @@ If you want to evaluate ATLAS for a real engagement, the right path is a **conve
 
 | Region | Email | Site |
 |---|---|---|
-| 🇫🇷 France | mae@vivantro.com | [vivantro.com](https://vivantro.com) |
-| 🇹🇳 Tunisia | mae@access-international.dev | [access-international.dev](https://access-international.dev) |
+| 🇫🇷 France | [contact form](https://vivantro.org/#contact) | [vivantro.com](https://vivantro.com) |
+| 🇹🇳 Tunisia | [contact form](https://vivantro.org/#contact) | [access-international.dev](https://access-international.dev) |
 
 ---
 
