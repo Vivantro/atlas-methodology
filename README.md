@@ -119,17 +119,25 @@ ATLAS was applied to **2 production benchmarks** of ~25,500 additional lines (an
 
 Every POC ships as a working application. You can interact with the migrated systems directly:
 
-| POC | Live URL |
-|---|---|
-| Credit card management (CardDemo) | https://carddemo.vivantro.org |
-| Credit card extended (CardDemo Ext) | https://carddemo-ext.vivantro.org |
-| Core banking (CBSA) | https://cbsa.vivantro.org |
-| Insurance (GenApp) | https://genapp.vivantro.org |
-| Sovereign tax (DGFiP) | https://dgfip.vivantro.org |
-| Invoicing (Raptor — Delphi) | https://raptor.vivantro.org |
-| Insurance integration (BizTalk) | https://biztalk.vivantro.org |
+| POC | Live URL | Original source | Original license |
+|---|---|---|---|
+| Credit card management (CardDemo) | https://carddemo.vivantro.org | [aws-samples/aws-mainframe-modernization-carddemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo) | Apache 2.0 |
+| Credit card extended (CardDemo Ext) | https://carddemo-ext.vivantro.org | same as CardDemo | Apache 2.0 |
+| Core banking (CBSA) | https://cbsa.vivantro.org | [cicsdev/cics-banking-sample-application-cbsa](https://github.com/cicsdev/cics-banking-sample-application-cbsa) | EPL 2.0 |
+| Insurance (GenApp) | https://genapp.vivantro.org | [cicsdev/cics-genapp](https://github.com/cicsdev/cics-genapp) | EPL 2.0 |
+| Sovereign tax (DGFiP) | https://dgfip.vivantro.org | [gitlab.adullact.net/dgfip/taxe_fonciere](https://gitlab.adullact.net/dgfip/taxe_fonciere) | CeCILL v2.1 |
+| Invoicing (Raptor — Delphi) | https://raptor.vivantro.org | [quartexNOR/RaptorInvoice](https://github.com/quartexNOR/RaptorInvoice) by Jon Lennart Aasenden | Apache 2.0 |
+| Insurance integration (BizTalk) | https://biztalk.vivantro.org | [Azure/aimbiztalk](https://github.com/Azure/aimbiztalk) (Microsoft) | MIT |
 
-> Source code of the original systems comes from public references (AWS CardDemo, IBM CBSA & GenApp, DGFiP CeCILL, Microsoft `aimbiztalk` MIT samples, open-source Delphi). Migrated code is proprietary.
+### Migration sources we publish
+
+For the three copyleft licenses (EPL 2.0, CeCILL v2.1) we publish the source of the migration alongside the live demo, in compliance with the original licenses' redistribution requirements:
+
+- [Vivantro/poc-cbsa](https://github.com/Vivantro/poc-cbsa) — TypeScript port of CBSA (EPL 2.0)
+- [Vivantro/poc-genapp](https://github.com/Vivantro/poc-genapp) — TypeScript port of GenApp (EPL 2.0)
+- [Vivantro/poc-dgfip](https://github.com/Vivantro/poc-dgfip) — TypeScript port of DGFiP Taxe Fonciere (CeCILL v2.1)
+
+For the four permissive licenses (Apache 2.0, MIT), the migrated code is not republished here — but each live demo carries a footer with the original source URL, the license, and our attribution. The original projects retain their copyright; our migration is documented work, not a fork.
 
 ---
 
