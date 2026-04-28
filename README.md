@@ -11,7 +11,7 @@
 [![POC](https://img.shields.io/badge/POC-9%20completed-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
 [![Lines migrated](https://img.shields.io/badge/Source%20lines-~35%2C500-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
 [![Patterns covered](https://img.shields.io/badge/Patterns-48%20covered-29B6E8?style=flat-square&labelColor=1C2847)](#proof-points)
-[![Live demos](https://img.shields.io/badge/Live%20demos-7-29B6E8?style=flat-square&labelColor=1C2847)](#live-demos)
+[![Live demos](https://img.shields.io/badge/Live%20demos-8-29B6E8?style=flat-square&labelColor=1C2847)](#live-demos)
 [![Vivantro](https://img.shields.io/badge/by-Vivantro%20%C2%B7%20Access%20International-1C2847?style=flat-square)](https://github.com/Vivantro)
 
 </div>
@@ -122,13 +122,14 @@ Every POC ships as a working application. You can interact with the migrated sys
 
 | POC | Live URL |
 |---|---|
-| Credit card management (CardDemo) | https://carddemo-cobol-migration.dali-79b.workers.dev |
-| Credit card extended (CardDemo Ext) | https://carddemo-ext-cobol-migration.dali-79b.workers.dev |
-| Core banking (CBSA) | https://cbsa-cobol-migration.dali-79b.workers.dev |
-| Insurance (GenApp) | https://genapp-cobol-migration.dali-79b.workers.dev |
-| Sovereign tax (DGFiP) | https://dgfip-taxe-fonciere-migration.dali-79b.workers.dev |
-| Invoicing (Raptor — Delphi) | https://raptor-invoice-delphi-migration.dali-79b.workers.dev |
-| Insurance integration (BizTalk) | https://biztalk-assurance-migration.dali-79b.workers.dev |
+| Credit card management (CardDemo) | https://carddemo.vivantro.org |
+| Credit card extended (CardDemo Ext) | https://carddemo-ext.vivantro.org |
+| Core banking (CBSA) | https://cbsa.vivantro.org |
+| Insurance (GenApp) | https://genapp.vivantro.org |
+| Sovereign tax (DGFiP) | https://dgfip.vivantro.org |
+| Invoicing (Raptor — Delphi) | https://raptor.vivantro.org |
+| Insurance integration (BizTalk) | https://biztalk.vivantro.org |
+| Portfolio management | https://portfolio.vivantro.org |
 
 > Source code of the original systems comes from public references (AWS CardDemo, IBM CBSA & GenApp, DGFiP CeCILL, Microsoft `aimbiztalk` MIT samples, open-source Delphi). Migrated code is proprietary.
 
