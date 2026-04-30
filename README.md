@@ -115,6 +115,42 @@ ATLAS was applied to **2 production benchmarks** of ~25,500 additional lines (an
 
 ---
 
+## Self-learning in action
+
+ATLAS evolves through retrospective application: when a methodology release adds new verifications, they are applied retroactively to past POCs to validate both the new checks and the prior deliverables.
+
+### Recent additions (v0.8 → v0.9 candidate)
+
+| New verification | Origin | Applied to |
+|---|---|---|
+| **A1** Referenced copybook missing — `COPY xxx.` with no matching file | retroactive POC | All future engagements |
+| **A2** Defined copybook never populated — declared 01-level with no `WRITE`/`REWRITE` | retroactive POC | "Planned model not implemented" → completion opportunity |
+| **A3** Standard copybook bypassed by inline declaration | retroactive POC | Detects internal standard divergence |
+| **A4** Unguarded `MOVE` from PIC X to PIC 9 — implicit alpha-to-numeric without `IS NUMERIC` check | retroactive POC | New pitfall #20 candidate (S0C7 in COBOL, silent NaN in TS) |
+| **A5** Divergent validation rules for the same business field | retroactive POC | Identifies the canonical validator per field |
+
+### Discordance taxonomy (5 categories)
+
+Every discordance found in a fidelity audit is now classified into one of:
+
+| Category | Definition | Standard action |
+|---|---|---|
+| **Source bug — blocking** | Source does not compile or run | Reconstruct or exclude |
+| **Source bug — functional** | Compiles but behavior is wrong | Fix in migration, document |
+| **Security flaw (CWE-tagged)** | Known vulnerability class in source | Fix in migration, flag CWE |
+| **Technical debt** | Works but is not standard practice | Refactor in migration, document |
+| **Incomplete model** | Structure declared in source but never populated | Complete in migration, document |
+
+This taxonomy makes every discordance traceable in the final report under a clear, decision-ready bucket.
+
+### Retroactive audit — published example
+
+The CBSA POC (banking core, EPL 2.0) was originally migrated under ATLAS v0.6. Re-applying the v0.8 verifications surfaced **4 minor robustness improvements** (no critical bug) — all documented in the [poc-cbsa repository](https://github.com/Vivantro/poc-cbsa/blob/main/ATLAS_v0.8_audit.md) as a transparency report.
+
+The exercise validates two things at once: the new checks catch real signal, and the prior delivery remains functionally sound.
+
+---
+
 ## Live demos
 
 Every POC ships as a working application. You can interact with the migrated systems directly:
